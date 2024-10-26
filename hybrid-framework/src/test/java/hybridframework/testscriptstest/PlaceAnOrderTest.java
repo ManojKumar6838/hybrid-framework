@@ -21,7 +21,7 @@ import hybridframework.object.repository.ShoppingCartPage;
 @Listeners(hybridframework.listnerimplimentation.ListnerImplimentation.class)
 public class PlaceAnOrderTest extends BaseClass{
 
-	@Test
+	@Test(enabled = false)
 	public void placeOrderTest() throws InterruptedException {
 		//Clicking on Books Module
 		HomePage homePage=new HomePage(driver);

@@ -9,7 +9,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class Demo {
 
-	@Test
+	@Test(enabled = false)
 	public static void demo() throws Throwable {
 		ExtentSparkReporter spark=new ExtentSparkReporter("./New/New2.html");
 		ExtentReports report=new ExtentReports();

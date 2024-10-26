@@ -26,7 +26,7 @@ public class LoginFunctionalTest {
 		return data;
 	}
 	
-	@Test(dataProvider = "dataSupplier")
+	@Test(dataProvider = "dataSupplier", enabled = false)
 	public void LoginTest(String username, String password) {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();

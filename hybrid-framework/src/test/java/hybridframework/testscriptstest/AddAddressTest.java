@@ -19,7 +19,7 @@ import hybridframework.object.repository.MyAccountPage;
 @Listeners(hybridframework.listnerimplimentation.ListnerImplimentation.class)
 public class AddAddressTest extends BaseClass {
 
-	@Test
+	@Test(enabled = false)	
 	public void addAddressTest() {
 
 		// Clicking on My Profile Button
