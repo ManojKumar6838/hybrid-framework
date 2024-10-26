@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Surefire suite has Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[LoginTest Test has Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[Welcome Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[LoginTest Test has Successfully Completed Execution]]>
+    </line>
+    <line>
+      <![CDATA[LoginTest Test has Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[Welcome Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[LoginTest Test has Successfully Completed Execution]]>
+    </line>
+    <line>
+      <![CDATA[LoginTest Test has Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[Welcome Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[LoginTest Test has Successfully Completed Execution]]>
+    </line>
+    <line>
+      <![CDATA[LoginTest Test has Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[Welcome Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[LoginTest Test has Successfully Completed Execution]]>
+    </line>
+    <line>
+      <![CDATA[LoginTest Test has Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[Welcome Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[LoginTest Test has Successfully Completed Execution]]>
+    </line>
+    <line>
+      <![CDATA[LoginTest Test has Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[Welcome Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[LoginTest Test has Successfully Completed Execution]]>
+    </line>
+    <line>
+      <![CDATA[Welcome Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Logged in Successfully]]>
+    </line>
+    <line>
+      <![CDATA[addAddressTest Test has Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[addAddressTest Test has Successfully Completed Execution]]>
+    </line>
+    <line>
+      <![CDATA[Logged out Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Welcome Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Logged in Successfully]]>
+    </line>
+    <line>
+      <![CDATA[placeOrderTest Test has Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[Books page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Shopping Cart Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Order is Successfully Booked]]>
+    </line>
+    <line>
+      <![CDATA[placeOrderTest Test has Successfully Completed Execution]]>
+    </line>
+    <line>
+      <![CDATA[Logged out Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-27T00:42:43 IST" name="Surefire suite" finished-at="2024-10-27T00:44:08 IST" duration-ms="85371">
+    <groups>
+    </groups>
+    <test started-at="2024-10-27T00:42:43 IST" name="Surefire test" finished-at="2024-10-27T00:44:08 IST" duration-ms="85371">
+      <class name="hybridframework.funtionaltestingscripts.LoginFunctionalTest">
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:hybridframework.funtionaltestingscripts.LoginFunctionalTest@6e0dec4a]" started-at="2024-10-27T00:42:44 IST" name="LoginTest" data-provider="dataSupplier" finished-at="2024-10-27T00:42:53 IST" duration-ms="9426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[LoginTest Test has Started Execution]]>
+            </line>
+            <line>
+              <![CDATA[Welcome Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[LoginTest Test has Successfully Completed Execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:hybridframework.funtionaltestingscripts.LoginFunctionalTest@6e0dec4a]" started-at="2024-10-27T00:42:53 IST" name="LoginTest" data-provider="dataSupplier" finished-at="2024-10-27T00:43:00 IST" duration-ms="6534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[LoginTest Test has Started Execution]]>
+            </line>
+            <line>
+              <![CDATA[Welcome Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[LoginTest Test has Successfully Completed Execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:hybridframework.funtionaltestingscripts.LoginFunctionalTest@6e0dec4a]" started-at="2024-10-27T00:43:00 IST" name="LoginTest" data-provider="dataSupplier" finished-at="2024-10-27T00:43:05 IST" duration-ms="5465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[LoginTest Test has Started Execution]]>
+            </line>
+            <line>
+              <![CDATA[Welcome Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[LoginTest Test has Successfully Completed Execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:hybridframework.funtionaltestingscripts.LoginFunctionalTest@6e0dec4a]" started-at="2024-10-27T00:43:05 IST" name="LoginTest" data-provider="dataSupplier" finished-at="2024-10-27T00:43:12 IST" duration-ms="6778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[LoginTest Test has Started Execution]]>
+            </line>
+            <line>
+              <![CDATA[Welcome Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[LoginTest Test has Successfully Completed Execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:hybridframework.funtionaltestingscripts.LoginFunctionalTest@6e0dec4a]" started-at="2024-10-27T00:43:12 IST" name="LoginTest" data-provider="dataSupplier" finished-at="2024-10-27T00:43:19 IST" duration-ms="6435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[LoginTest Test has Started Execution]]>
+            </line>
+            <line>
+              <![CDATA[Welcome Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[LoginTest Test has Successfully Completed Execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:hybridframework.funtionaltestingscripts.LoginFunctionalTest@6e0dec4a]" started-at="2024-10-27T00:43:19 IST" name="LoginTest" data-provider="dataSupplier" finished-at="2024-10-27T00:43:29 IST" duration-ms="10174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[LoginTest Test has Started Execution]]>
+            </line>
+            <line>
+              <![CDATA[Welcome Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[LoginTest Test has Successfully Completed Execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- hybridframework.funtionaltestingscripts.LoginFunctionalTest -->
+      <class name="hybridframework.testscriptstest.PlaceAnOrderTest">
+        <test-method is-config="true" signature="openBrowserAndNavigate()[pri:0, instance:hybridframework.testscriptstest.PlaceAnOrderTest@70e8f8e]" started-at="2024-10-27T00:43:50 IST" name="openBrowserAndNavigate" finished-at="2024-10-27T00:43:54 IST" duration-ms="4107" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Welcome Page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndNavigate -->
+        <test-method is-config="true" signature="login()[pri:0, instance:hybridframework.testscriptstest.PlaceAnOrderTest@70e8f8e]" started-at="2024-10-27T00:43:54 IST" name="login" finished-at="2024-10-27T00:43:56 IST" duration-ms="1597" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Logged in Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="placeOrderTest()[pri:0, instance:hybridframework.testscriptstest.PlaceAnOrderTest@70e8f8e]" started-at="2024-10-27T00:43:56 IST" name="placeOrderTest" finished-at="2024-10-27T00:44:06 IST" duration-ms="10361" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[placeOrderTest Test has Started Execution]]>
+            </line>
+            <line>
+              <![CDATA[Books page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Shopping Cart Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Order is Successfully Booked]]>
+            </line>
+            <line>
+              <![CDATA[placeOrderTest Test has Successfully Completed Execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- placeOrderTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:hybridframework.testscriptstest.PlaceAnOrderTest@70e8f8e]" started-at="2024-10-27T00:44:06 IST" name="logout" finished-at="2024-10-27T00:44:08 IST" duration-ms="1637" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:hybridframework.testscriptstest.PlaceAnOrderTest@70e8f8e]" started-at="2024-10-27T00:44:08 IST" name="closeBrowser" finished-at="2024-10-27T00:44:08 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- hybridframework.testscriptstest.PlaceAnOrderTest -->
+      <class name="hybridframework.testscriptstest.AddAddressTest">
+        <test-method is-config="true" signature="openBrowserAndNavigate()[pri:0, instance:hybridframework.testscriptstest.AddAddressTest@2e4b8173]" started-at="2024-10-27T00:43:29 IST" name="openBrowserAndNavigate" finished-at="2024-10-27T00:43:33 IST" duration-ms="4405" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Welcome Page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndNavigate -->
+        <test-method is-config="true" signature="login()[pri:0, instance:hybridframework.testscriptstest.AddAddressTest@2e4b8173]" started-at="2024-10-27T00:43:33 IST" name="login" finished-at="2024-10-27T00:43:35 IST" duration-ms="1837" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Logged in Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addAddressTest()[pri:0, instance:hybridframework.testscriptstest.AddAddressTest@2e4b8173]" started-at="2024-10-27T00:43:35 IST" name="addAddressTest" finished-at="2024-10-27T00:43:48 IST" duration-ms="13180" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[addAddressTest Test has Started Execution]]>
+            </line>
+            <line>
+              <![CDATA[addAddressTest Test has Successfully Completed Execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addAddressTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:hybridframework.testscriptstest.AddAddressTest@2e4b8173]" started-at="2024-10-27T00:43:48 IST" name="logout" finished-at="2024-10-27T00:43:50 IST" duration-ms="1527" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:hybridframework.testscriptstest.AddAddressTest@2e4b8173]" started-at="2024-10-27T00:43:50 IST" name="closeBrowser" finished-at="2024-10-27T00:43:50 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- hybridframework.testscriptstest.AddAddressTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

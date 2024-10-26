@@ -17,31 +17,31 @@ import hybridframework.object.repository.MyAccountPage;
  */
 
 @Listeners(hybridframework.listnerimplimentation.ListnerImplimentation.class)
-public class AddAddressTest extends BaseClass{
+public class AddAddressTest extends BaseClass {
 
 	@Test
 	public void addAddressTest() {
-		
-		//Clicking on My Profile Button
-		HomePage homePage=new HomePage(driver);
+
+		// Clicking on My Profile Button
+		HomePage homePage = new HomePage(driver);
 		homePage.getMyAccountButton().click();
 		test.log(Status.INFO, "Clicked on My Account Button");
-		//Asserting Accounts Page
-		MyAccountPage accountPage=new MyAccountPage(driver);
+		// Asserting Accounts Page
+		MyAccountPage accountPage = new MyAccountPage(driver);
 		Assert.assertTrue(accountPage.getMyAccountText().isDisplayed());
-		//Clicking on Add new Address Button
+		// Clicking on Add new Address Button
 		accountPage.getAddressesButton().click();
 		accountPage.getAddNewAddressButton().click();
 		test.log(Status.INFO, "Clicked on Add New Address Button");
-		//Asserting Address Page
-		AddNewAddressPage addAddressPage=new AddNewAddressPage(driver);
-		Assert.assertTrue(addAddressPage.getAddNewAddressText().isDisplayed()); 
-		
-		//Entering all the Required Details
+		// Asserting Address Page
+		AddNewAddressPage addAddressPage = new AddNewAddressPage(driver);
+		Assert.assertTrue(addAddressPage.getAddNewAddressText().isDisplayed());
+
+		// Entering all the Required Details
 		addAddressPage.getFirstNameTextField().sendKeys("Manoj");
 		addAddressPage.getLastNameTextField().sendKeys("Kumar");
 		addAddressPage.getEmailTextField().sendKeys("manugowda123@gmail.com");
-		Select selectCountry=new Select(addAddressPage.getCountryDropdown());
+		Select selectCountry = new Select(addAddressPage.getCountryDropdown());
 		selectCountry.selectByVisibleText("India");
 		addAddressPage.getCityTextField().sendKeys("Bengaluru");
 		addAddressPage.getAddress1TextField().sendKeys("#001, Nanna Nilaya, 2nd Cross");

@@ -62,7 +62,7 @@ public class ListnerImplimentation implements ITestListener, ISuiteListener, Con
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		TakesScreenshot ts=(TakesScreenshot)BaseClass.driver;
+		TakesScreenshot ts=(TakesScreenshot)BaseClass.sdriver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
 		String screenshotPath=FAILED_SCREENSHOTS_PATH+result.getName()+javaUtility.getSystemDate()+".png";
 		File trg = new File(screenshotPath);

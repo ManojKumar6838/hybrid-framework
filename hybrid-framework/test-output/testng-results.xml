@@ -2,7 +2,13 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[SmokeSuite has Started Execution]]>
+      <![CDATA[ParallelSuite has Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[Welcome Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[ParallelSuite has Started Execution]]>
     </line>
     <line>
       <![CDATA[Welcome Page is Displayed]]>
@@ -11,10 +17,19 @@
       <![CDATA[Login Page is Displayed]]>
     </line>
     <line>
+      <![CDATA[Login Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Logged in Successfully]]>
+    </line>
+    <line>
       <![CDATA[Logged in Successfully]]>
     </line>
     <line>
       <![CDATA[placeOrderTest Test has Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[addAddressTest Test has Started Execution]]>
     </line>
     <line>
       <![CDATA[Books page is Displayed]]>
@@ -32,37 +47,25 @@
       <![CDATA[Logged out Successfully]]>
     </line>
     <line>
-      <![CDATA[Welcome Page is Displayed]]>
-    </line>
-    <line>
-      <![CDATA[Login Page is Displayed]]>
-    </line>
-    <line>
-      <![CDATA[Logged in Successfully]]>
-    </line>
-    <line>
-      <![CDATA[addAddressTest Test has Started Execution]]>
-    </line>
-    <line>
       <![CDATA[addAddressTest Test has Successfully Completed Execution]]>
     </line>
     <line>
       <![CDATA[Logged out Successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-05-22T00:30:57 IST" name="SmokeSuite" finished-at="2024-05-22T00:31:28 IST" duration-ms="30996">
+  <suite started-at="2024-10-26T11:50:31 IST" name="ParallelSuite" finished-at="2024-10-26T11:50:54 IST" duration-ms="22823">
     <groups>
     </groups>
-    <test started-at="2024-05-22T00:30:57 IST" name="Test" finished-at="2024-05-22T00:31:28 IST" duration-ms="30996">
+    <test started-at="2024-10-26T11:50:31 IST" name="Test" finished-at="2024-10-26T11:50:54 IST" duration-ms="22823">
       <class name="hybridframework.testscriptstest.PlaceAnOrderTest">
-        <test-method is-config="true" signature="openBrowserAndNavigate()[pri:0, instance:hybridframework.testscriptstest.PlaceAnOrderTest@4be29ed9]" started-at="2024-05-22T00:30:57 IST" name="openBrowserAndNavigate" finished-at="2024-05-22T00:31:02 IST" duration-ms="5281" status="PASS">
+        <test-method is-config="true" signature="openBrowserAndNavigate()[pri:0, instance:hybridframework.testscriptstest.PlaceAnOrderTest@7e6f74c]" started-at="2024-10-26T11:50:31 IST" name="openBrowserAndNavigate" finished-at="2024-10-26T11:50:37 IST" duration-ms="5515" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Welcome Page is Displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowserAndNavigate -->
-        <test-method is-config="true" signature="login()[pri:0, instance:hybridframework.testscriptstest.PlaceAnOrderTest@4be29ed9]" started-at="2024-05-22T00:31:02 IST" name="login" finished-at="2024-05-22T00:31:04 IST" duration-ms="1698" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:hybridframework.testscriptstest.PlaceAnOrderTest@7e6f74c]" started-at="2024-10-26T11:50:37 IST" name="login" finished-at="2024-10-26T11:50:39 IST" duration-ms="2635" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login Page is Displayed]]>
@@ -72,7 +75,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="placeOrderTest()[pri:0, instance:hybridframework.testscriptstest.PlaceAnOrderTest@4be29ed9]" started-at="2024-05-22T00:31:04 IST" name="placeOrderTest" finished-at="2024-05-22T00:31:13 IST" duration-ms="9347" status="PASS">
+        <test-method signature="placeOrderTest()[pri:0, instance:hybridframework.testscriptstest.PlaceAnOrderTest@7e6f74c]" started-at="2024-10-26T11:50:39 IST" name="placeOrderTest" finished-at="2024-10-26T11:50:49 IST" duration-ms="9391" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[placeOrderTest Test has Started Execution]]>
@@ -91,27 +94,27 @@
             </line>
           </reporter-output>
         </test-method> <!-- placeOrderTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:hybridframework.testscriptstest.PlaceAnOrderTest@4be29ed9]" started-at="2024-05-22T00:31:13 IST" name="logout" finished-at="2024-05-22T00:31:15 IST" duration-ms="1625" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:hybridframework.testscriptstest.PlaceAnOrderTest@7e6f74c]" started-at="2024-10-26T11:50:49 IST" name="logout" finished-at="2024-10-26T11:50:51 IST" duration-ms="1993" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logged out Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:hybridframework.testscriptstest.PlaceAnOrderTest@4be29ed9]" started-at="2024-05-22T00:31:15 IST" name="closeBrowser" finished-at="2024-05-22T00:31:15 IST" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:hybridframework.testscriptstest.PlaceAnOrderTest@7e6f74c]" started-at="2024-10-26T11:50:51 IST" name="closeBrowser" finished-at="2024-10-26T11:50:51 IST" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- hybridframework.testscriptstest.PlaceAnOrderTest -->
       <class name="hybridframework.testscriptstest.AddAddressTest">
-        <test-method is-config="true" signature="openBrowserAndNavigate()[pri:0, instance:hybridframework.testscriptstest.AddAddressTest@712625fd]" started-at="2024-05-22T00:31:15 IST" name="openBrowserAndNavigate" finished-at="2024-05-22T00:31:19 IST" duration-ms="3943" status="PASS">
+        <test-method is-config="true" signature="openBrowserAndNavigate()[pri:0, instance:hybridframework.testscriptstest.AddAddressTest@3fc2959f]" started-at="2024-10-26T11:50:31 IST" name="openBrowserAndNavigate" finished-at="2024-10-26T11:50:37 IST" duration-ms="5514" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Welcome Page is Displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowserAndNavigate -->
-        <test-method is-config="true" signature="login()[pri:0, instance:hybridframework.testscriptstest.AddAddressTest@712625fd]" started-at="2024-05-22T00:31:19 IST" name="login" finished-at="2024-05-22T00:31:21 IST" duration-ms="1702" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:hybridframework.testscriptstest.AddAddressTest@3fc2959f]" started-at="2024-10-26T11:50:37 IST" name="login" finished-at="2024-10-26T11:50:39 IST" duration-ms="2635" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login Page is Displayed]]>
@@ -121,7 +124,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="addAddressTest()[pri:0, instance:hybridframework.testscriptstest.AddAddressTest@712625fd]" started-at="2024-05-22T00:31:21 IST" name="addAddressTest" finished-at="2024-05-22T00:31:26 IST" duration-ms="5327" status="PASS">
+        <test-method signature="addAddressTest()[pri:0, instance:hybridframework.testscriptstest.AddAddressTest@3fc2959f]" started-at="2024-10-26T11:50:39 IST" name="addAddressTest" finished-at="2024-10-26T11:50:52 IST" duration-ms="12438" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[addAddressTest Test has Started Execution]]>
@@ -131,18 +134,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- addAddressTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:hybridframework.testscriptstest.AddAddressTest@712625fd]" started-at="2024-05-22T00:31:26 IST" name="logout" finished-at="2024-05-22T00:31:28 IST" duration-ms="1512" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:hybridframework.testscriptstest.AddAddressTest@3fc2959f]" started-at="2024-10-26T11:50:52 IST" name="logout" finished-at="2024-10-26T11:50:54 IST" duration-ms="1949" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logged out Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:hybridframework.testscriptstest.AddAddressTest@712625fd]" started-at="2024-05-22T00:31:28 IST" name="closeBrowser" finished-at="2024-05-22T00:31:28 IST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:hybridframework.testscriptstest.AddAddressTest@3fc2959f]" started-at="2024-10-26T11:50:54 IST" name="closeBrowser" finished-at="2024-10-26T11:50:54 IST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- hybridframework.testscriptstest.AddAddressTest -->
     </test> <!-- Test -->
-  </suite> <!-- SmokeSuite -->
+  </suite> <!-- ParallelSuite -->
 </testng-results>

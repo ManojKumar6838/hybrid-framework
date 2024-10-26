@@ -26,12 +26,14 @@ import hybridframework.object.repository.WelcomePage;
 
 public class BaseClass extends ListnerImplimentation{
 
-	public static WebDriver driver;
+	public WebDriver driver;
+	public static WebDriver sdriver;
 	static ReadProperties read = new ReadProperties();
 
 	@BeforeClass
 	public void openBrowserAndNavigate() {
 		driver = new ChromeDriver();
+		sdriver=driver;
 		driver.manage().window().maximize();
 		String url = read.fetchProperty("url");
 		driver.get(url);
