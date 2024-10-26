@@ -7,11 +7,10 @@ import org.testng.annotations.Test;
 import hybridframework.baseclass.BaseClass;
 
 @Listeners(hybridframework.listnerimplimentation.ListnerImplimentation.class)
-public class Demo2Test extends BaseClass{
-	
-	@Test
-	public void demo2Test() {
-		Reporter.log("This is a Demo 2 Test", true);
-	}
+public class Demo3Test extends BaseClass{
 
+	@Test
+	public void demo3Test() {
+		Reporter.log("This is a Demo 3 Test", true);
+	}
 }
